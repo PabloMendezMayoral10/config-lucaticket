@@ -12,3 +12,7 @@ spring:
         uri: lb://eventos/
         predicates:
           - Path=/eventos/**
+      - id: validacion
+        uri: lb://validacion/
+        predicates:
+          - Path=/validacion/**
